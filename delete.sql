@@ -8,3 +8,6 @@
 -- ('Nala', 'lion', 2),
 -- ('Marie', 'cat', 1),
 -- ('Flounder', 'fish', 8);
+DELETE FROM animals WHERE type = "lion";
+DELETE FROM animals WHERE name = "m%";
+DELETE FROM animals WHERE age < 9;
